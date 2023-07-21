@@ -117,13 +117,23 @@ button:hover {
   transition: all 0.5s;
 }
 
-.content {
-  width: 200px;
-  height: 200px;
+.bg {
+  width: 500px;
   background-color: #3c445b;
   border-radius: 16px;
   position: relative;
   transition: all 0.5s;
+  padding-top: 16px;
+  padding-left: 20px;
+}
+
+.content {
+  width: 480px;
+}
+
+.description-popup {
+  color: #cfcfcf;
+  margin-bottom: 64px;
 }
 
 .close {
@@ -138,4 +148,18 @@ button:hover {
   cursor: pointer;
   background-color: #9f9f9f44;
   border-radius: 4px;
+}
+
+.time {
+  position: absolute;
+  bottom: 12px;
+  left: 20px;
+  background-color: #313338;
+  border-radius: 5px;
+  padding: 3px;
+  padding-inline: 8px;
+  font-family: monospace;
+  width: min-content;
+  white-space: nowrap;
+  font-size: 18px;
 }
