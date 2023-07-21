@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="23.999998px" viewBox="0 0 24 23.999998" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M24 0L24 0L24 24L0 24L0 0L24 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="close-square" clip-path="url(#clip_1)">
+    <path d="M24 0L24 0L24 24L0 24L0 0L24 0Z" id="close-square" fill="none" stroke="none" />
+    <g id="Group-2" transform="translate(5.169922 5.17004)">
+      <g id="Group" transform="matrix(-1 0 0 1 13.660109 0)">
+        <path d="M0 13.66L13.6601 0" id="Line" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+      <g id="Group" transform="matrix(-1 0 0 1 13.660109 0)">
+        <path d="M13.6601 13.66L0 0" id="Line" fill="none" fill-rule="evenodd" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -9,6 +9,11 @@
   <title>Document</title>
 </head>
 <body>
+  <div class="popup" id="popup">
+    <div class="content">
+      <img src="close.svg" class="close" id="close">
+    </div>
+  </div>
   <div class="activities">
     <h1>Activities</h1>
     <div class="cards">
@@ -16,7 +21,7 @@
         <h2 class="title">Kreuz</h2>
         <p class="description">ALLe krezue weg um 11:00 Uhr</p>
         <button class="card-button participate">Participate</button>
-        <button class="card-button details">Details</button>
+        <button class="card-button details" id="details">Details</button>
       </div>
       <div class="card">card2</div>
       <div class="card">card3</div>
@@ -30,5 +35,6 @@
 
     <button class="logout">Logout</button>
   </div>
+  <script src="dashboard.js"></script>
 </body>
 </html>
