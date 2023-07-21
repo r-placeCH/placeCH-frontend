@@ -118,22 +118,24 @@ button:hover {
 }
 
 .bg {
-  width: 500px;
+  max-width: 500px;
   background-color: #3c445b;
   border-radius: 16px;
   position: relative;
   transition: all 0.5s;
   padding-top: 16px;
   padding-left: 20px;
+  margin-inline: 12px;
 }
 
 .content {
-  width: 480px;
+  max-width: 480px;
 }
 
 .description-popup {
+  margin-top: 8px;
   color: #cfcfcf;
-  margin-bottom: 64px;
+  margin-bottom: 18px;
 }
 
 .close {
@@ -152,7 +154,7 @@ button:hover {
 
 .time {
   position: absolute;
-  bottom: 12px;
+  bottom: 16px;
   left: 20px;
   background-color: #313338;
   border-radius: 5px;
@@ -162,4 +164,10 @@ button:hover {
   width: min-content;
   white-space: nowrap;
   font-size: 18px;
+}
+
+.image{
+  width: calc(100% - 20px);
+  border-radius: 8px;
+  margin-bottom: 56px;
 }
