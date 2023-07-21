@@ -57,10 +57,13 @@ button:hover {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   gap: 16px;
   margin-top: 16px;
-  overflow-y: scroll;
-  height: calc(100% - 100px);
+  overflow-y: auto;
+  height: max-content;
+  max-height: calc(100% - 100px);
+  
 }
 
 .card {
