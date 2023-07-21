@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Inter;
+  src: url("/Inter.woff2");
+  font-display: swap;
+}
+
+body {
+  background-color: #121826;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white !important;
+  font-family: Inter;
+}
+
+.login{
+  background-color: #1f2639;
+  padding: 40px 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  text-align: center;
+  margin-top: 0;
+  font-size: 38px;
+}
+
+.input{
+  background-color: #262d43;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  outline: #e45e5a;
+  font-size: 16px;
+}
+
+.input:focus{
+  outline: #e45e5a;
+  outline-style: solid;
+}
+
+.username{
+  margin-bottom: 8px;
+}
+
+.login-button{
+  margin-top: 12px;
+  background-color: #e45e5a;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover{
+  background-color: #a94a46;
+}
