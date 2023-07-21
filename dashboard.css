@@ -92,3 +92,7 @@ button:hover {
 .details{
   left: calc(112px + 12px);
 }
+.this {
+  background-color: #66ff6650;
+  border: 2px solid #66ff66;
+}
