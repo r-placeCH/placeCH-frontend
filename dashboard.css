@@ -18,7 +18,7 @@ body {
 }
 
 .activities {
-  position: fixed;
+  position: absolute;
   background-color: #1f2639;
   padding: 20px 20px;
   border-radius: 10px;
@@ -26,6 +26,7 @@ body {
   height: calc(100vh - 80px);
   margin: 20px;
   width: calc(100vw - 80px);
+  overflow: hidden;
 }
 
 h1 {
@@ -58,13 +59,15 @@ button:hover {
   flex-wrap: wrap;
   gap: 16px;
   margin-top: 16px;
+  overflow-y: scroll;
+  height: calc(100% - 100px);
 }
 
 .card {
   background-color: #3c445b;
   border-radius: 12px;
   height: 200px;
-  min-width: max-content;
+  min-width: 200px;
   padding: 10px;
   flex-direction: column;
   flex-grow: 1;
