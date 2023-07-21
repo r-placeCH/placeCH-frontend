@@ -60,18 +60,32 @@ button:hover {
   gap: 16px;
   margin-top: 16px;
   overflow-y: scroll;
-  height: calc(100% - 100px);
+  height: max-content;
 }
 
 .card {
+  position: relative;
   background-color: #3c445b;
   border-radius: 12px;
-  height: 200px;
+  height: 150px;
   min-width: 200px;
   padding: 10px;
+  padding-left: 14px;
   flex-direction: column;
   flex-grow: 1;
   flex-shrink: 1;
-  display: grid;
   place-content: center;
+}
+
+.card-button{
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+}
+.participate{
+  left: 12px;
+}
+
+.details{
+  left: calc(112px + 12px);
 }
