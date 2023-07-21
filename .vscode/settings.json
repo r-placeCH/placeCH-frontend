@@ -5,7 +5,18 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
+    "**/.env": true,
+    "**/.gitignore": true,
+    "**/.npmrc": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.vscode": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true,
+    "**/README.md": true,
+    "**/tsconfig.json": true
   },
   "hide-files.files": []
 }
