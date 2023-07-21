@@ -10,22 +10,21 @@
 }
 
 body {
-  background-color: #121826;
   color: white !important;
   font-family: Inter;
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .activities {
   position: absolute;
   background-color: #1f2639;
   padding: 20px 20px;
-  border-radius: 10px;
   flex-direction: column;
-  height: calc(100vh - 80px);
-  margin: 20px;
-  width: calc(100vw - 80px);
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
   overflow: hidden;
 }
 
@@ -63,7 +62,7 @@ button:hover {
   overflow-y: auto;
   height: max-content;
   max-height: calc(100% - 100px);
-  
+
 }
 
 .card {
@@ -80,16 +79,17 @@ button:hover {
   place-content: center;
 }
 
-.card-button{
+.card-button {
   position: absolute;
   bottom: 12px;
   left: 0;
 }
-.participate{
+
+.participate {
   left: 12px;
 }
 
-.details{
+.details {
   left: calc(112px + 12px);
 }
 
@@ -99,7 +99,43 @@ button:hover {
   border: 2px solid #66ff66;
 }
 
-.participated button{
+.participated button {
   background-color: #ffffff;
   color: black;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  display: none;
+  place-content: center;
+  transition: all 0.5s;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+  background-color: #3c445b;
+  border-radius: 16px;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.close:hover {
+  cursor: pointer;
+  background-color: #9f9f9f44;
+  border-radius: 4px;
 }
